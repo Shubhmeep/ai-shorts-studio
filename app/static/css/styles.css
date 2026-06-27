@@ -1,0 +1,15 @@
+body {
+  background: #f6f8fb;
+  color: #172033;
+}
+
+.hero-section {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  align-items: center;
+}
+
+.upload-preview {
+  border-radius: 8px;
+  box-shadow: 0 16px 40px rgba(23, 32, 51, 0.08);
+}

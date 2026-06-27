@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Upload Video | AI Shorts Tool{% endblock %}
+
+{% block content %}
+<section class="hero-section">
+  <div class="row align-items-center g-4">
+    <div class="col-lg-7">
+      <p class="text-uppercase text-primary fw-semibold small mb-2">Phase 1</p>
+      <h1 class="display-5 fw-bold mb-3">Turn long videos into focused short clips.</h1>
+      <p class="lead text-secondary mb-4">
+        This first version proves that Flask can serve a clean page and respond to
+        health checks before we add uploads, jobs, AI, and video transformations.
+      </p>
+      <a class="btn btn-primary btn-lg" href="/health">Check app health</a>
+    </div>
+
+    <div class="col-lg-5">
+      <div class="upload-preview border bg-white p-4">
+        <div class="ratio ratio-16x9 bg-light border rounded mb-3"></div>
+        <h2 class="h5 fw-semibold">Upload workflow coming next</h2>
+        <p class="text-secondary mb-0">
+          The upload UI will connect to ImageKit in a later phase. For now, this
+          placeholder keeps the layout close to the real product.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
