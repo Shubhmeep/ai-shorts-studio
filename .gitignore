@@ -1,6 +1,13 @@
+.env
 .venv/
-.venv-wsl/
+venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
-.env
+.coverage
+htmlcov/
+dist/
+build/
+node_modules/
+uploads/
+tmp/

@@ -1,0 +1,8 @@
+I want to create a PRD. Help me create a PRD document for this topic. 
+
+What I want to build : I want to build an AI shorts tool. The basic idea is I want to upload a large file, some standard 16 by 9 video, and then I want to convert that into multiple shorter clips. The idea is that I want to take this long video, I want to generate those shorter clips, and I want to do that by analyzing the audio transcripts. I would like to build this using normal JS, I  was thinking about bootstrap as I do not possess front-end frameworks knowledge and make this a web app, and I want to use the following tools. First, for the transcription of the video, I want to use Whisper from Groq. So, I'll provide a Groq API key. I then want to use groq LLM, specifically the and 70B parameter model, for actually picking out the moments in my video and then generating titles and captions for those particular shorts. Lastly, I want to use ImageKit for handling all of the image and video-related tasks. For example, I want it to reframe the face of the user, I want it to add captions, I want it to give me the streamable video format, and I want it to handle actually uploading my video, allowing me to download it, etc. I want to use supabase for DB, although videos will be stored in imagekit, so no seperate DB for imagekit right now. We can keep metadata in supabase, store hash file so if user submits the same file to be processed, we have the results stored - we feth those and give only. 
+
+I plan to deploy this project and learn about development properly, I want to have python flask backend. Ask me any questions that you need before we proceed.  I plan to build this using AI co-pilot.
+
+Teach me how to write PRD and write PRD for this as well.
+

@@ -1,0 +1,1 @@
+Read prd.md and create a detailed implementation plan with phased tasks. Do not write code yet. Confirm your understanding of the requirements, then outline the sequence of work with checkpoints
